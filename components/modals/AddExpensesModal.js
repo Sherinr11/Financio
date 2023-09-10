@@ -1,5 +1,3 @@
-"use client";
-
 import { useState, useContext, useRef } from "react";
 import { financeContext } from "@/lib/store/finance-context";
 
@@ -164,3 +162,7 @@ function AddExpensesModal({ show, onClose }) {
 }
 
 export default AddExpensesModal;
+    
+  
+        
+         
