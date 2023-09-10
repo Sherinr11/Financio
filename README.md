@@ -39,3 +39,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Note
 While adding expenses, create a new category. Upon doing so, it gets displayed and we will be able to add the expenses for the respective category accordingly 
+## Demo
+https://financio-nine.vercel.app/
