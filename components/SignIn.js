@@ -5,8 +5,9 @@ import { FcGoogle } from "react-icons/fc";
 function SignIn() {
   const auth = getAuth();
 
-  // Create a Google Auth Provider instance
+  // Create a Google Auth Provider instance and set custom parameters
   const googleProvider = new GoogleAuthProvider();
+  googleProvider.setCustomParameters({ prompt: "select_account" });
 
   // Implement Google sign-in handler
   const googleLoginHandler = () => {
