@@ -40,7 +40,8 @@ export default function Home() {
 
     setBalance(newBalance);
   }, [expenses, income]);
-
+if (!user) {
+    return <SignIn />;
   return (
     <>
       {/* Add Income Modal */}
