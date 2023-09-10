@@ -1,12 +1,24 @@
 import React, { useContext } from "react";
-
+import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 import { authContext } from "@/lib/store/auth-context";
 
 import { FcGoogle } from "react-icons/fc";
 
 function SignIn() {
   const { googleLoginHandler } = useContext(authContext);
-
+  const googleProvider = new GoogleAuthProvider();
+  const googleLoginHandler = () => {
+  signInWithPopup(auth, googleProvider)
+    .then((result) => {
+      // Handle successful sign-in
+      const user = result.user;
+      console.log("Successfully signed in with Google:", user);
+    })
+    .catch((error) => {
+      // Handle sign-in error
+      console.error("Error signing in with Google:", error);
+    });
+};
   return (
     <main className="container max-w-2xl px-6 mx-auto">
       <h1 className="  text-6xl font-bold text-center mt-0">FINANCIO</h1>
