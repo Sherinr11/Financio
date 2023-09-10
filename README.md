@@ -1,4 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Our Project
+Financio is a visionary personal finance tracker project designed to empower individuals in managing their financial resources with ease and precision.
+It stands as a beacon of financial empowerment, simplifying personal finance management and promoting productivity.
 
 ## Getting Started
 
@@ -29,6 +32,10 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deploy on Vercel
 
+
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Note
+While adding expenses, create a new category. Upon doing so, it gets displayed and we will be able to add the expenses for the respective category accordingly 
