@@ -53,7 +53,7 @@ function AddIncomeModal({ show, onClose }) {
 
   return (
     <Modal show={show} onClose={onClose}>
-      <form onSubmit={addIncomeHandler} className="flex flex-col gap-4">
+      <form onSubmit={addIncomeHandler} className="flex flex-col gap-4  ">
         <div className="input-group">
           <label htmlFor="amount">Income Amount</label>
           <input
