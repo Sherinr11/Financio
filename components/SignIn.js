@@ -9,27 +9,29 @@ function SignIn() {
 
   return (
     <main className="container max-w-2xl px-6 mx-auto">
-      <h1 className="mb-6 text-6xl font-bold text-center">Welcome 👋</h1>
-
-      <div className="flex flex-col overflow-hidden shadow-md shadow-slate-500 bg-slate-800 rounded-2xl">
-        <div className="h-52">
+      <h1 className="  text-6xl font-bold text-center mt-0">FINANCIO</h1>
+<p className="text-6md text-center font-bold mb-4 ">AFFORD THAT DREAM</p>
+      <div className=" overflow-hidden  rounded-2xl">
+        <div className="h-60 w-35">
           <img
-            className="object-cover w-full h-full"
-            src="https://images.pexels.com/photos/4386431/pexels-photo-4386431.jpeg"
-          />
+            className="object-cover w-lg h-s mx-auto mt-5 shadow-md "
+            src="https://imgs.search.brave.com/F-ASGfYKdVOeoA1b-dkElXv4JJDlnb4cZIAkUVTODvc/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4u/d2FsbHBhcGVyc2Fm/YXJpLmNvbS8zLzQw/L3d2bGp5ay5qcGc"  
+                    />
+                    
         </div>
 
-        <div className="px-4 py-4">
-          <h3 className="text-2xl text-center">Please sign in to continue</h3>
-
-          <button
-            onClick={googleLoginHandler}
-            className="flex self-start gap-2 p-4 mx-auto mt-6 font-medium text-white align-middle bg-gray-700 rounded-lg"
-          >
-            <FcGoogle className="text-2xl" /> Google
-          </button>
-        </div>
+       
       </div>
+      <div className="px-4 py-4">
+      
+
+      <button
+        onClick={googleLoginHandler}
+        className="flex self-start  p-4 mx-auto mt-0 font-medium text-white align-middle bg-gray-700 rounded-lg"
+      >
+        <FcGoogle className="text-2xl" /> SIGN IN
+      </button>
+    </div>
     </main>
   );
 }
