@@ -79,3 +79,6 @@ function ViewExpenseModal({ show, onClose, expense }) {
 }
 
 export default ViewExpenseModal;
+     
+
+     
